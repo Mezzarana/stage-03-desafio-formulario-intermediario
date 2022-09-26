@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #EFEFEF;
+}
+
+body::before {
+  content: '';
+  width: 100%;
+  height: 436px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #535971;
+}
+
+.page {
+  width: 750px;
+  margin: 140px auto;
+}
+
+h1, legend, button {
+  font-family: 'Staatliches', cursive;
+}
+
+header h1 {
+  font-size: 48px;
+  line-height: 60px;
+  margin-bottom: 18px;
+  color: #FFFFFF;
+}
+
+header p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 58px;
+  color: #FFFFFF;
+}
+
+form {
+  padding: 64px;
+  border-radius: 8px 8px 0px 0px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+fieldset {
+  border: none;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  gap: 15px;
+}
+
+legend {
+  font-size: 24px;
+  line-height: 34px;
+  color: #535971;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #E6E6F0;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+label {
+  font-size: 14px;
+  line-height: 24px;
+  color: #4E4958;
+}
+
+span {
+  font-size: 12px;
+  line-height: 20px;
+  color: #C1BCCC;
+  margin-left: 10px;
+}
+
+span:hover {
+  color: #8c8893;
+}
+
+input {
+  height: 56px;
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  padding: 0 24px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4E4958;
+  cursor: text;
+}
+
+.full-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.full-name input {
+  width: 300px;
+}
+
+.mentoring-order {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.mentoring-order > div:nth-child(1) {
+  width: 300px;
+}
+
+.mentoring-order > div:nth-child(2) {
+  width: 140px;
+  margin-left: 32px;
+}
+
+.mentoring-order > div:nth-child(3) {
+  width: 140px;
+  margin-left: 10px;
+}
+
+.mentoring-legend {
+  font-family: 'Staatliches';
+  font-size: 20px;
+  line-height: 34px;
+  color: #535971;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+footer {
+  height: 160px;
+  background: #535971;
+  border-radius: 0px 0px 20px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 600px;
+  height: 60px;
+  background: #FF5374;
+  border-radius: 20px;
+  border: none;
+  color:#FFFFFF;
+  font-size: 20px;
+  line-height: 26px;
+  cursor: pointer;
+}
